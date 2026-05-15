@@ -30,10 +30,10 @@ export default function Hero() {
       {/* Background poster image */}
       <div className="absolute inset-0">
         <Image
-          src="/mbp_poster.webp"
-          alt="Mossel Bay Padel players in action"
+          src="/hero.jpg"
+          alt="Indoor padel match in action"
           fill
-          className="object-cover object-right"
+          className="object-cover object-center"
           priority
           quality={90}
         />
