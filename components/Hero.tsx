@@ -117,7 +117,7 @@ export default function Hero() {
             className="mt-16 flex flex-wrap gap-8 pt-8 border-t border-white/10"
           >
             {[
-              { value: '4', label: 'Indoor Courts' },
+              { value: '2', label: 'Indoor Courts' },
               { value: 'Pro', label: 'Coaching' },
               { value: 'All', label: 'Skill Levels' },
               { value: '365', label: 'Days Open' },
