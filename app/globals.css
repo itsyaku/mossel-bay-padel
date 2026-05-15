@@ -4,8 +4,9 @@
 
 :root {
   --teal: #3BBFBF;
-  --teal-dark: #1A2E2E;
-  --teal-mid: #2A9D8F;
+  --pink: #E8197D;
+  --navy: #090C17;
+  --navy-card: #111628;
 }
 
 html {
@@ -13,16 +14,11 @@ html {
 }
 
 body {
-  background-color: #F8F6F2;
+  background-color: #090C17;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Hide scrollbar in dialog on webkit */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
